@@ -1,0 +1,99 @@
+@media all and (max-width:1024px) {
+    .menu {
+        display: block;
+    }
+}
+
+
+@media all and (max-width:991px) {
+    .menu {
+        display: none;
+    }
+
+    .menu ul {
+        display: flex;
+        grid-gap: 20px;
+        flex-direction: column;
+        top: 125px;
+        position: absolute;
+        left: 0;
+        background-color: #FFDFD4;
+        width: 100%;
+    }
+
+    .hero-area ul {
+        display: flex;
+        justify-content: end;
+    }
+
+    /*******mobile icon*********/
+    .mobile-icon a {
+        font-size: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .mobile-icon a .fa-solid.fa-bars {
+        padding: 10px;
+        color: #FD4100;
+    }
+
+    .row.r2 {
+        align-items: center;
+    }
+
+    .mobile-icon {
+        display: flex;
+        justify-content: end;
+    }
+
+    .hero-area {
+        margin: 40px;
+    }
+
+
+
+}
+
+@media all and (max-width:767px) {
+    .image_item {
+        margin: 0 15px;
+    }
+
+    .devifix-content {
+        padding-bottom: 77px;
+        margin: 20px 15px;
+    }
+
+    .cookies ul {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:576px) {
+    .footer-logo.mt-5.mb-5 {
+        text-align: center;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .button {
+        margin: auto;
+    }
+}
